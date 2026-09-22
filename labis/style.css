@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 5000px;
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 0;
+    width: 100vw;
+    height: 945px;
+    background-color: rgb(24, 209, 132);
+    transition: ease 0.3s;
+}
+
+
+
+.box1 > p {
+    position: absolute;
+}
+
+.box1.f {
+    position: fixed;
+}
+
+.box2> img {
+    width: 300px;
+    height: 300px;
+}
